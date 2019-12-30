@@ -1,0 +1,28 @@
+{
+  "name": "easyline-tech-website",
+  "version": "1.0.0",
+  "description": "The official website for Easyline Technology",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open chrome",
+    "build": "parcel build index.html --out-dir ./public"
+  },
+  "author": "Unsion Web Development",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:unsion-dev/easyline-tech-website.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Hexsphere/hexsphere/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "cssnano": "^4.1.10",
+    "parcel-plugin-compress": "^1.1.0",
+    "sass": "^1.23.3"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

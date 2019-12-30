@@ -1,0 +1,54 @@
+.header {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: max-content 8.99%;
+
+  background: center url("/img/hero-img.png");
+  background-size: cover;
+
+  &--nav {
+    padding: 5rem 11.1rem 0 6.3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    font-size: 1.8rem;
+
+    &-logo {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      column-gap: 4rem;
+
+      img {
+        height: 2.38rem;
+        width: auto;
+      }
+
+      h4 {
+        font-weight: 400;
+        margin-right: -0.8rem;
+      }
+    }
+
+    ul {
+      list-style: none;
+
+      display: grid;
+      grid-template-columns: repeat(4, max-content);
+      column-gap: 10rem;
+    }
+
+    &-link:link,
+    &-link:visited {
+      color: #fff;
+      margin-right: -0.8rem;
+
+      text-decoration: none;
+    }
+  }
+}
