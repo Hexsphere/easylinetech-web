@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Easyline Technology | Home</title>
 
-    <link rel="stylesheet" href="sass/main.scss" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Easyline Technology | Home</title>
 
-  <body>
-    <header class="header">
-      <nav class="header--nav">
-        <div class="header--nav-logo">
-          <img src="img/logo.svg" alt="Easyline Tech Logo" />
+  <link rel="stylesheet" href="sass/main.scss" />
+</head>
 
-          <h4>easyline technology</h4>
+<body>
+  <header class="header">
+    <nav class="header--nav">
+      <div class="header--nav-logo">
+        <img src="img/logo.svg" alt="Easyline Tech Logo" />
+
+        <h4>easyline technology</h4>
+      </div>
+
+      <ul>
+        <li><a class="header--nav-link" href="#">home</a></li>
+        <li><a class="header--nav-link" href="#">products</a></li>
+        <li><a class="header--nav-link" href="#">services</a></li>
+        <li><a class="header--nav-link" href="#">contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1 class="heading-primary">Strategic Sourcing<br />Consultancy.</h1>
+
+      <a href="#" class="btn">Learn More</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="about">
+      <div class="about--short-bio">
+        <h3 class="heading-secondary">About Us</h3>
+
+        <p>EasyLine Technology is a sourcing consultancy and trading company based in Hong Kong.</p>
+      </div>
+
+      <div class="about--full-bio">
+        <img src="img/full-bio-img.png" alt="Laptop on desk with a cup with a green leaf in it.">
+
+        <div class="about--bio-text">
+          <h3 class="heading-secondary">Our Work</h3>
+          <p>
+            We provides our customers with professional consultancy regarding strategic sourcing and mechanical
+            production lines with a reasonable and competitive price.<br><br>We also sell a hand-picked catalog of the best
+            precise measuring instruments and other products.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <h3 class="heading-secondary">Our Products & Services</h3>
+
+      <div class="products--services-gallery">
+        <div class="products--services-card">
+          <div class="products--service-label">Strategic Consultancy</div>
+          <div class="products--service-image"><img src="img/service-img-1.png" alt=""></div>
         </div>
 
-        <ul>
-          <li><a class="header--nav-link" href="#">home</a></li>
-          <li><a class="header--nav-link" href="#">products</a></li>
-          <li><a class="header--nav-link" href="#">services</a></li>
-          <li><a class="header--nav-link" href="#">contact</a></li>
-        </ul>
-      </nav>
+        <div class="products--services-card">
+          <div class="products--service-label">Measuring Instruments</div>
+          <div class="products--service-image"><img src="img/service-img-2.png" alt=""></div>
+        </div>
+        
+        <div class="products--services-card">
+          <div class="products--service-label">More Products</div>
+          <div class="products--service-image"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
 
-      <section class="hero">
-        <h1 class="heading-primary">Strategic Sourcing<br />Consultancy.</h1>
-
-        <a href="#" class="btn">Learn More</a>
-      </section>
-    </header>
-  </body>
 </html>

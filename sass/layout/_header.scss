@@ -3,18 +3,22 @@
   width: 100%;
 
   display: grid;
-  grid-template-rows: max-content 8.99%;
+  grid-template-rows: repeat(2, max-content);
 
   background: center url("/img/hero-img.png");
   background-size: cover;
 
   &--nav {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
     padding: 5rem 11.1rem 0 6.3rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
+    font-family: $secondary-font;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
     font-size: 1.8rem;

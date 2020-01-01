@@ -1,5 +1,49 @@
+// FONTS
+
 @font-face {
   font-family: "Circular";
-  src: url("/fonts/circular-book.ttf");
+  src: url("/fonts/circular-book.woff2") format("woff2"),
+  url("/fonts/circular-book.woff") format("woff");
   font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/circular-medium.woff2") format("woff2"),
+  url("/fonts/circular-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/circular-black.woff2") format("woff2"),
+  url("/fonts/circular-black.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/futura-book.woff2") format("woff2"),
+  url("/fonts/futura-book.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+// HEADINGS
+
+.heading-primary {
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.05;
+
+  color: $palette-color-6;
 }
