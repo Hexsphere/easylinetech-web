@@ -1,0 +1,53 @@
+.footer {
+  padding: 8.17rem 16.42rem 9.18rem 16.41rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 24.26rem;
+
+  background-color: $palette-color-1;
+
+  & > * {
+    grid-row: 1 / 2;
+
+    display: grid;
+    grid-auto-rows: max-content;
+    justify-items: start;
+    row-gap: 3.5rem;
+  }
+
+  &--page-nav,
+  &--legal-nav {
+    justify-self: start;
+
+    list-style: none;
+  }
+
+  &--info {
+    justify-self: end;
+    justify-items: end;
+  }
+
+  a:link,
+  a:visited,
+  p {
+    line-height: 1;
+    letter-spacing: 0.4rem;
+    margin-left: -0.4rem;
+
+    color: #fff;
+    font-family: $secondary-font;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+
+  .fa-twitter {
+    height: auto;
+    width: 2.6rem;
+  }
+}

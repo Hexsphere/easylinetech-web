@@ -10,9 +10,18 @@
 @import "base/utilities";
 
 // Components
+@import "components/header";
+@import "components/footer";
 
 // Layouts
 @import "layout/header";
 @import "layout/hero";
 @import "layout/about";
 @import "layout/products";
+@import "layout/our-promise";
+@import "layout/our-customers";
+@import "layout/page-nav";
+
+// Fontawesome
+@import "/css/fontawesome.min.css";
+@import "/css/brands.min.css";

@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Circular";
   src: url("/fonts/circular-book.woff2") format("woff2"),
-  url("/fonts/circular-book.woff") format("woff");
+    url("/fonts/circular-book.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Circular";
   src: url("/fonts/circular-medium.woff2") format("woff2"),
-  url("/fonts/circular-medium.woff") format("woff");
+    url("/fonts/circular-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 @font-face {
   font-family: "Circular";
   src: url("/fonts/circular-black.woff2") format("woff2"),
-  url("/fonts/circular-black.woff") format("woff");
+    url("/fonts/circular-black.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -27,8 +27,8 @@
 @font-face {
   font-family: "Futura";
   src: url("/fonts/futura-book.woff2") format("woff2"),
-  url("/fonts/futura-book.woff") format("woff");
-  font-weight: 300;
+    url("/fonts/futura-book.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
 }
 
